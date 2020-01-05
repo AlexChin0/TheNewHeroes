@@ -1,0 +1,45 @@
+/*This is the basic stylesheet applied to the window. It changes the styles of buttons, labels and adds coloured borders*/
+
+/*The general template applied to all buttons*/
+.button {
+  -fx-font: 12px "tahoma";
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-border-color: rgb(50, 100, 180);
+    -fx-border-radius: 40;
+    -fx-padding: 3 6 6 6;
+}
+
+/*The template for the left and right panels of the pane*/
+.sidePanels {
+  -fx-padding: 10;
+  -fx-border-style: solid inside;
+  -fx-border-width: 2;
+  -fx-border-insets: 5;
+  -fx-border-radius: 5;
+  -fx-border-color: blue;
+}
+
+/*Template for the middle portiono of the pane*/
+.centerPanels {
+  -fx-padding: 5;
+  -fx-border-style: solid inside;
+  -fx-border-width: 2;
+  -fx-border-insets: 1;
+  -fx-border-radius: 5;
+  -fx-border-color: black;
+}
+
+/*Template for popup type windows*/
+.popUps { 
+  -fx-padding: 10;
+  -fx-border-style: solid inside;
+  -fx-border-width: 2;
+  -fx-border-insets: 5;
+  -fx-border-radius: 5;
+  -fx-border-color: blue;
+}
+
+/*A brief style change for drop down menu choices*/
+.choice-box .label {
+  -fx-border-radius: 4;
+}
